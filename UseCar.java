@@ -33,5 +33,6 @@ public class UseCar {
             }
         }
         scan.close();
+        System.out.println("Program ended.");
     }
 }
