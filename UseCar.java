@@ -8,8 +8,8 @@ public class UseCar {
 
         Scanner scan = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter command (accel(accelerate), brake, damage, exit, or");
-            System.out.println("checkspeed, checkhp): ");
+            System.out.println("Enter commands; accel(accelerate), brake, damage, exit, or");
+            System.out.println("checkspeed, checkhp: ");
             String command = scan.nextLine();
 
             if (command.equalsIgnoreCase("accelerate") || command.equalsIgnoreCase("accel")) {
